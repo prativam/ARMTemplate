@@ -16,3 +16,5 @@ az group deployment create -g RGArmTemplateTest --template-file FunctionAppArmTe
 
 5th PostgreSQL—>
 az group deployment create -g RGArmTemplateTest --template-file PostGreSQLArmTemp.json --parameters PostGreSQLArmParams.json
+
+
