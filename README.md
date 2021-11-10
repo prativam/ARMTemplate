@@ -1,10 +1,9 @@
 # ARMTemplate
 Below are the command for all the arm template using azure cli
 
-1.)az deployment create --location "West Europe" --template-file ResourceGrpArmTemp.json
 
-2nd Create Resource Group Arm parameters:-
-2.)az deployment create --location "West Europe" --template-file ResourceGrpArmTemp.json --parameters  ResourceGrpArmParams.json 
+1st Create Resource Group Arm parameters:-
+az deployment create --location "West Europe" --template-file ResourceGrpArmTemp.json --parameters  ResourceGrpArmParams.json 
 
 2nd Storage Accounts—>
 az group deployment create -g RGArmTemplateTest --template-file StorageArmTemp.json --parameters storageArmParams.json
